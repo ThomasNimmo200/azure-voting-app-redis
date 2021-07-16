@@ -9,7 +9,7 @@ pipeline{
         }
         stage('Docker Build') {
             steps {
-                powershell(script: 'echo pwd')                
+                powershell(script: '$pwd')                
             }
         }
     }
